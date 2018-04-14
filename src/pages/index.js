@@ -16,6 +16,9 @@ export default class Index extends React.Component {
         <p>
           <Link to="/file-upload/">Go to file upload form</Link>
         </p>
+        <p>
+          <Link to="/recaptcha/">Go to form with reCAPTCHA 2</Link>
+        </p>
       </div>
     );
   }
